@@ -24,7 +24,7 @@ ng serve
 
 5. Test the app at http://localhost:4200
 
-=======================
+
 
 ## The Characters Calculation Service's approach explanation:
 
