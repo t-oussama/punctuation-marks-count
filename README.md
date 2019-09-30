@@ -26,7 +26,7 @@ ng serve
 
 =======================
 
-## The Characters Calculation Service choice explanation:
+## The Characters Calculation Service's approach explanation:
 
 When implementing the punctuation markers count service, our first instinct was to simply loop through the text one character at a time and then verify, for each character, if it is part of the characters we are interested in counting, which in turn translates to an other loop.
 
