@@ -17,8 +17,8 @@ mvn spring-boot:run
 
 4. Install dependencies and run the `Angular 8` app:
 ```
-npm i
 cd front-end
+npm i
 ng serve
 ```
 
