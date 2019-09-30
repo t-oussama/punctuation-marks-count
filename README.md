@@ -40,5 +40,5 @@ P = 6
 The first approache's cost is: **1200**
 The second approache's cost is: **412**
 
-###Note: Please read the  code to have a better understanding of what this section covers
+### Note: Please read the  code to have a better understanding of what this section covers
 
