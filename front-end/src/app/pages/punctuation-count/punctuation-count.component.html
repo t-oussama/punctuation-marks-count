@@ -1,0 +1,20 @@
+<div id="col1">
+    <div class="top-menu">
+        <div class="btn btn-outline-primary count-btn" (click)="count()">
+            <i class="fas fa-check"></i> Submit
+        </div>
+
+        <div class="btn btn-outline-success upload-btn" (click)="fileupload.click()">
+            <i class="fas fa-upload" style="margin-right: 10px;"></i> Or upload a text file ...
+        </div>
+
+        <input #fileupload type="file" id="input" style="display: none;" (change)="handleFileInput($event.target.files)">
+    </div>
+    <textarea id="text-input" placeholder="Please type your text in this area" [(ngModel)]="text"></textarea>
+</div>
+<div id="col2">
+    <div class="count-display">
+        <h3>Punctuation Marks Count:</h3>
+        <app-number-display [number]="totalCount"></app-number-display>
+    </div>
+</div>
